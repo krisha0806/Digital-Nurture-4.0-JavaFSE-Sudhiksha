@@ -5,8 +5,7 @@ This repository contains hands-on weekly assignments submitted as part of the **
 > 🔗 GitHub Repo: [krisha0806/Digital-Nurture-4.0-JavaFSE-Sudhiksha](https://github.com/krisha0806/Digital-Nurture-4.0-JavaFSE-Sudhiksha)
 
 ---
-
-## 📁 Weekly Hands-on Structure
+##  Weekly Hands-on Structure
 
 | Week | Topics Covered |
 |------|----------------|
@@ -14,6 +13,10 @@ This repository contains hands-on weekly assignments submitted as part of the **
 | [Week2](./Week2) | ✅ Object-Oriented Programming (OOP)<br>✅ Classes, Objects, Inheritance, Polymorphism<br>✅ **Test-Driven Development (TDD)** using **JUnit 5** and **Mockito**<br>✅ **PL/SQL Programming** — Procedures, Functions, Triggers |
 | [Week3](./Week3) | ✅ Spring Boot Project Setup<br>✅ Spring Data JPA with Hibernate<br>✅ Entity Mapping (`@Entity`, `@Id`, `@Repository`, `@Service`)<br>✅ CRUD Operations with DB |
 | [Week4](./Week4) | ✅ REST API Development using Spring Boot 3<br>✅ `@RestController`, `@RequestMapping`, `@GetMapping`, etc.<br>✅ JSON Data Exchange<br>✅ API Testing via Postman<br>✅ Configuration with `application.properties` |
+| [Week5](./Week5) | ✅ Frontend Development Basics<br>✅ HTML5, CSS3, JavaScript<br>✅ DOM Manipulation<br>✅ Form Validation<br>✅ Responsive Web Design |
+| [Week6](./Week6) | ✅ React.js Fundamentals<br>✅ Components, Props, State<br>✅ Event Handling<br>✅ Conditional Rendering<br>✅ React Project Hands-on (Hands-on 1–5) |
+| [Week7](./Week7) | ✅ JavaScript + React Mini Projects<br>✅ Blogger App<br>✅ Cricket App<br>✅ Event Examples App<br>✅ Office Space Rental App<br>✅ Ticket Booking App |
+| [Week8](./Week8) | ✅ Git & GitHub Hands-on<br>✅ Git Basics — init, add, commit, push, pull<br>✅ Branching & Merging<br>✅ Resolving Merge Conflicts<br>✅ Git Advanced Commands |
 
 ---
 
@@ -24,6 +27,8 @@ This repository contains hands-on weekly assignments submitted as part of the **
 - REST API (JSON)
 - JUnit 5 + Mockito
 - PL/SQL
+- React.js
+- HTML5, CSS3, JavaScript
 - Maven
 - Git & GitHub
 - Eclipse / IntelliJ / VS Code
@@ -48,7 +53,12 @@ This repository contains hands-on weekly assignments submitted as part of the **
 - Run the main class with `@SpringBootApplication`
 - Test REST endpoints via browser or Postman
 
----
+### For React Apps (Weeks 6 & 7):
+- Navigate to the project folder
+- Run `npm install`
+- Start the dev server with:
+  ```bash
+  npm start
 
 ## Author
 
@@ -59,14 +69,5 @@ This repository contains hands-on weekly assignments submitted as part of the **
 
 ---
 
-## Acknowledgements
-
-Thanks to the **Digital Nurture 4.0** training team for their mentorship and support throughout this learning journey!
-
----
-
 > _This repo is built for practice, learning, and academic submission._
-
-
-
 
