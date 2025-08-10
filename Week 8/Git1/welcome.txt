@@ -1,0 +1,2 @@
+Welcome to Git Lab
+This file is created as part of Git hands-on lab by Bob

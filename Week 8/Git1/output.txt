@@ -1,0 +1,55 @@
+$ git --version
+git version 2.42.0.windows.1
+
+$ git config --global user.name "Bob"
+$ git config --global user.email "bob@example.com"
+
+$ git config --global --list
+user.name=Bob
+user.email=bob@example.com
+
+$ git init
+Initialized empty Git repository in GitDemo/.git/
+
+$ ls -a
+.  ..  .git  welcome.txt
+
+$ cat welcome.txt
+Welcome to Git Lab
+This file is created as part of Git hands-on lab by Bob
+
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	welcome.txt
+
+$ git add welcome.txt
+
+$ git commit
+[master (root-commit) abc1234] Added welcome.txt
+ 1 file changed, 2 insertions(+)
+ create mode 100644 welcome.txt
+
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+$ git remote add origin https://gitlab.com/bob/GitDemo.git
+
+$ git pull origin master --allow-unrelated-histories
+From https://gitlab.com/bob/GitDemo
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 250 bytes | 250.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://gitlab.com/bob/GitDemo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
